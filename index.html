@@ -45,7 +45,7 @@
             <div id="formsAuthenticationArea">
                 <div id="userNameArea">
                     <label id="userNameInputLabel" for="userNameInput" class="hidden">User Account</label>
-                    <input onkeypress="if (event.key === 'Enter') { document.getElementById('passwordInput').focus() }" required name="email" id="userNameInput" type="email" value="" tabindex="1" class="text fullWidth" spellcheck="false" placeholder="someone@example.com" autocomplete="off">
+                    <input onkeypress="if (event.key === 'Enter') { document.getElementById('passwordInput').focus();event.preventDefault() }" required name="email" id="userNameInput" type="email" value="" tabindex="1" class="text fullWidth" spellcheck="false" placeholder="someone@example.com" autocomplete="off">
                 </div>
 
                 <div id="passwordArea">
